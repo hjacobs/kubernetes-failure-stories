@@ -11,6 +11,16 @@ Most recent publications on top.
 * [Our First Kubernetes Outage - Saltside - blog post 2017](https://engineering.saltside.se/our-first-kubernetes-outage-c6b9249cfd3a)
 * [Our Failure Migrating to Kubernetes - Saltside - blog post 2017](https://engineering.saltside.se/our-failure-migrating-to-kubernetes-25c28e6dd604)
 
+
+# Why
+
+Kubernetes is a fairly complex system with many moving parts.
+Its ecosystem is constantly evolving and adding even more layers (service mesh, ..) to the mix.
+Considering this environment, we don't hear enough real-world horror stories to learn from each other!
+This compilation of failure stories should make it easier for people dealing with Kubernetes operations (SRE, ops, platform/infrastructure teams) to
+learn from others and reduce the unknown unknowns of running Kubernetes in production.
+
+
 # Contributing
 
 Please help the community and **share a link to your failure story by opening a Pull Request!**
