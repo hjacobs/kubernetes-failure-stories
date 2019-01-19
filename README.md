@@ -11,5 +11,7 @@ Most recent publications on top.
 
 # Contributing
 
-Please help the community and share a link to your failure story by opening a Pull Request!
+Please help the community and **share a link to your failure story by opening a Pull Request!**
 Failure stories can be anything like blog posts, conference/meetup talks, incident postmortems, tweet storms, ...
+
+I would also be glad to hear about your failure stories on Twitter: my handle is [@try_except_](https://twitter.com/try_except_)
