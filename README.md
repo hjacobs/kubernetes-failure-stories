@@ -10,6 +10,7 @@ Most recent publications on top.
 * [Moving the Entire Stack to K8s Within a Year – Lessons Learned - ThredUP - DevOpsStage 2018](https://www.youtube.com/watch?v=tA8Sr3Nsx1I)
 * [AirMap Platform Service Outage - AirMap - incident report 2018](https://www.airmap.com/incident-180719/)
 * [Anatomy of a Production Kubernetes Outage - Monzo - KubeCon Europe 2018](https://www.youtube.com/watch?v=OUYTNywPk-s)
+* [101 Ways to "Break and Recover" Kubernetes Cluster - Oath/Yahoo - Kubecon Europe 2018](https://www.youtube.com/watch?v=likHm-KHGWQ)
 * [101 Ways to Crash Your Cluster - Nordstrom - KubeCon North America 2017](https://www.youtube.com/watch?v=xZO9nx6GBu0)
 * [Major Outage: Current account payments mail fail - Monzo - Monzo Community post 2017](https://community.monzo.com/t/resolved-current-account-payments-may-fail-major-outage-27-10-2017/26296/95)
 * [Our First Kubernetes Outage - Saltside - blog post 2017](https://engineering.saltside.se/our-first-kubernetes-outage-c6b9249cfd3a)
