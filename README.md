@@ -14,6 +14,7 @@ Most recent publications on top.
 * [Major Outage: Current account payments mail fail - Monzo - Monzo Community post 2017](https://community.monzo.com/t/resolved-current-account-payments-may-fail-major-outage-27-10-2017/26296/95)
 * [Our First Kubernetes Outage - Saltside - blog post 2017](https://engineering.saltside.se/our-first-kubernetes-outage-c6b9249cfd3a)
 * [Our Failure Migrating to Kubernetes - Saltside - blog post 2017](https://engineering.saltside.se/our-failure-migrating-to-kubernetes-25c28e6dd604)
+* [101 Ways to "Break and Recover" Kubernetes Cluster - Oath/Yahoo - Kubecon Europe 2018] (https://schd.ws/hosted_files/kccnceu18/fe/%E2%80%9CBreak%20and%20Recover%E2%80%9D%20Kubernetes%20Cluster%20and%20Application.pdf)
 
 
 # Why
