@@ -28,6 +28,7 @@ Its ecosystem is constantly evolving and adding even more layers (service mesh, 
 Considering this environment, we don't hear enough real-world horror stories to learn from each other!
 This compilation of failure stories should make it easier for people dealing with Kubernetes operations (SRE, ops, platform/infrastructure teams) to
 learn from others and reduce the unknown unknowns of running Kubernetes in production.
+For more information, [see the blog post](https://srcco.de/posts/kubernetes-failure-stories.html). 
 
 
 # Contributing
