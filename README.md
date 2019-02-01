@@ -24,9 +24,9 @@ Most recent publications on top.
 # Why
 
 Kubernetes is a fairly complex system with many moving parts.
-Its ecosystem is constantly evolving and adding even more layers (service mesh, ..) to the mix.
+Its ecosystem is constantly evolving and adding even more layers (service mesh, ...) to the mix.
 Considering this environment, we don't hear enough real-world horror stories to learn from each other!
-This compilation of failure stories should make it easier for people dealing with Kubernetes operations (SRE, ops, platform/infrastructure teams) to
+This compilation of failure stories should make it easier for people dealing with Kubernetes operations (SRE, Ops, platform/infrastructure teams) to
 learn from others and reduce the unknown unknowns of running Kubernetes in production.
 For more information, [see the blog post](https://srcco.de/posts/kubernetes-failure-stories.html). 
 
@@ -34,6 +34,6 @@ For more information, [see the blog post](https://srcco.de/posts/kubernetes-fail
 # Contributing
 
 Please help the community and **share a link to your failure story by opening a Pull Request!**
-Failure stories can be anything like blog posts, conference/meetup talks, incident postmortems, tweet storms, ...
+Failure stories can be anything like blog posts, conference/meetup talks, incident postmortems, tweetstorms, ...
 
 I would also be glad to hear about your failure stories on Twitter: my handle is [@try_except_](https://twitter.com/try_except_)
