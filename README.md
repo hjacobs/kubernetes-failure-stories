@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [Maximize learnings from a Kubernetes cluster failure - NU.nl - blog post 2019](https://www.tibobeijen.nl/2019/02/01/learning-from-kubernetes-cluster-failure/)
+    * involved: AWS, `NotReady` nodes, `SystemOOM`, Helm, ElastAlert, no resource limits set
+    * impact: user experience affected for internally used tools and dashboards
 * [Kubernetes Load Balancer Configuration - Beware when draining nodes - DevOps Hof - blog post 2019](https://www.devops-hof.de/kubernetes-load-balancer-konfiguration-beware-when-draining-nodes/)
     * involved: GCP Load Balancer, `externalTrafficPolicy`, ingress-nginx
     * impact: total ingress traffic outage
