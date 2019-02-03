@@ -37,8 +37,8 @@ Most recent publications on top.
     * involved: on-premise, namespace deletion, domain name collision, NotReady nodes, etcd empty dir, TLS certificate refresh, DNS issues, OOM
     * impact: unknown cluster outages
 * [101 Ways to Crash Your Cluster - Nordstrom - KubeCon North America 2017](https://www.youtube.com/watch?v=xZO9nx6GBu0)
-    * involved:
-    * impact:
+    * involved: AWS, NotReady nodes, OOM, eviction thresholds, ELB dynamic IPs, kubelet, cluster autoscaler, etcd split
+    * impact: full production cluster outage, other outages
 * [Major Outage: Current account payments may fail - Monzo - Monzo Community post 2017](https://community.monzo.com/t/resolved-current-account-payments-may-fail-major-outage-27-10-2017/26296/95)
     * involved: AWS, etcd, Linkerd, NullPointerException, services without endpoints
     * impact: major production outage, full platform outage, current account payments fail
