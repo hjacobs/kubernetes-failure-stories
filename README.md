@@ -31,11 +31,11 @@ Most recent publications on top.
     * involved: Azure, NotReady nodes, kubelet PLEG, CNI
     * impact: production AirMap platform outage
 * [Anatomy of a Production Kubernetes Outage - Monzo - KubeCon Europe 2018](https://www.youtube.com/watch?v=OUYTNywPk-s)
-    * involved:
-    * impact:
+    * involved: AWS, etcd, Linkerd, NullPointerException, gRPC client, services without endpoints, incompatible Kubernetes API change
+    * impact: production ledger/platform outage
 * [101 Ways to "Break and Recover" Kubernetes Cluster - Oath/Yahoo - KubeCon Europe 2018](https://www.youtube.com/watch?v=likHm-KHGWQ)
-    * involved:
-    * impact:
+    * involved: on-premise, namespace deletion, domain name collision, NotReady nodes, etcd empty dir, TLS certificate refresh, DNS issues, OOM
+    * impact: unknown cluster outages
 * [101 Ways to Crash Your Cluster - Nordstrom - KubeCon North America 2017](https://www.youtube.com/watch?v=xZO9nx6GBu0)
     * involved:
     * impact:
