@@ -22,7 +22,7 @@ Most recent publications on top.
     * involved: Azure, DNS, `ndots:5`, Alpine musl libc
     * impact: DNS resolution failures
 * [Kubernetes and the Menace ELB, the tale of an outage - Turnitin - blog post 2018](https://itnext.io/kubernetes-and-the-menace-elb-the-tale-of-an-outage-c00bef678fc0)
-    * involved: AWS, kube-aws, ELB dynamic IPs, API server, kubelet, NotReady nodes
+    * involved: AWS, kube-aws, ELB dynamic IPs, API server, kubelet, `NotReady` nodes
     * impact: 15 minutes cluster outage
 * [Moving the Entire Stack to K8s Within a Year – Lessons Learned - ThredUP - DevOpsStage 2018](https://www.youtube.com/watch?v=tA8Sr3Nsx1I)
     * involved: AWS, kops, HAProxy, `livenessProbe`, DNS, too many open files
