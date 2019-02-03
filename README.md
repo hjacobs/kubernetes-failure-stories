@@ -42,6 +42,9 @@ Most recent publications on top.
 * [Major Outage: Current account payments may fail - Monzo - Monzo Community post 2017](https://community.monzo.com/t/resolved-current-account-payments-may-fail-major-outage-27-10-2017/26296/95)
     * involved: AWS, etcd, Linkerd, `NullPointerException`, services without endpoints
     * impact: major production outage, full platform outage, current account payments fail
+* [Fallacies of Distributed Computing with Kubernetes on AWS - Zalando - AWS User Group Hamburg October 2017](https://www.slideshare.net/RaffaeleDiFazio/fallacies-of-distributed-computing-with-kubernetes-on-aws)
+    * involved: AWS, unhealthy nodes, Ingress, CronJob
+    * impact: production outage
 * [Search and Reporting Outage - Universe - incident report 2017](http://status.universe.com/incidents/115n3vxqwzcf)
     * involved: Job, `RestartPolicy`, consume node resources
     * impact: production Universe search and reporting outage
