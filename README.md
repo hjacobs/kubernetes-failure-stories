@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [Total DNS outage in Kubernetes cluster - Zalando - postmortem 2019](https://github.com/zalando-incubator/kubernetes-on-aws/blob/dev/docs/postmortems/jan-2019-dns-outage.md)
+    * involved: AWS, DNS, CoreDNS, `OOMKill`, `ndots:5`, HTTP retries
+    * impact: production outage
 * [Maximize learnings from a Kubernetes cluster failure - NU.nl - blog post 2019](https://www.tibobeijen.nl/2019/02/01/learning-from-kubernetes-cluster-failure/)
     * involved: AWS, `NotReady` nodes, `SystemOOM`, Helm, ElastAlert, no resource limits set
     * impact: user experience affected for internally used tools and dashboards
