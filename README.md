@@ -5,7 +5,7 @@ Most recent publications on top.
 
 * [Let's talk about Failures with Kubernetes - Zalando - Hamburg meetup 2019](https://www.slideshare.net/try_except_/lets-talk-about-failures-with-kubernetes-hamburg-meetup)
     * involved: AWS, `NotReady` nodes, ELB dynamic IPs, Ingress, API server, CronJob, CoreDNS, `OOMKill`, kubelet memory leak, CPU throttling
-    * impact: production outage
+    * impact: production outages
 * [Total DNS outage in Kubernetes cluster - Zalando - postmortem 2019](https://github.com/zalando-incubator/kubernetes-on-aws/blob/dev/docs/postmortems/jan-2019-dns-outage.md)
     * involved: AWS, DNS, CoreDNS, `OOMKill`, `ndots:5`, HTTP retries
     * impact: production outage
