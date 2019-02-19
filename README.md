@@ -66,6 +66,9 @@ Most recent publications on top.
 * [SaleMove US System Issue - SaleMove - incident report 2017](https://status.salemove.com/incidents/xf6cr710yrzn)
     * involved: AWS, ELB dynamic IPs, DNS `A` record for master, API server
     * impact: production issues with SaleMove US System
+* [Stories from the Playbook - Google - KubeCon Europe 2018](https://youtu.be/N2JUGnwinbQ)
+    * involved: GKE, etcd, Docker daemon, Image registry, dnsmasq vulnerabilities
+    * impact: production outage
 
 # Why
 
