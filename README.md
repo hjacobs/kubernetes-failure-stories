@@ -66,6 +66,9 @@ Most recent publications on top.
 * [SaleMove US System Issue - SaleMove - incident report 2017](https://status.salemove.com/incidents/xf6cr710yrzn)
     * involved: AWS, ELB dynamic IPs, DNS `A` record for master, API server
     * impact: production issues with SaleMove US System
+* [All pods are scheduled onto the same node, which crashes due to CPU overload, then problem repeats](https://updates.moonlightwork.com/outage-post-mortem-87370)
+    * involved: Google Kubernetes Engine, scheduler, anti-affinity rules
+    * impact: major production outage, 100% traffic loss
 
 # Why
 
