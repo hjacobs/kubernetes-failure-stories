@@ -42,6 +42,9 @@ Most recent publications on top.
 * [Anatomy of a Production Kubernetes Outage - Monzo - KubeCon Europe 2018](https://www.youtube.com/watch?v=OUYTNywPk-s)
     * involved: AWS, etcd, Linkerd, `NullPointerException`, gRPC client, services without endpoints, incompatible Kubernetes API change
     * impact: production ledger/platform outage
+* [Stories from the Playbook - Google - KubeCon Europe 2018](https://youtu.be/N2JUGnwinbQ)
+    * involved: GKE, etcd, Docker daemon, Image registry, dnsmasq vulnerabilities
+    * impact: production outage
 * [101 Ways to "Break and Recover" Kubernetes Cluster - Oath/Yahoo - KubeCon Europe 2018](https://www.youtube.com/watch?v=likHm-KHGWQ)
     * involved: on-premise, namespace deletion, domain name collision, `NotReady` nodes, etcd empty dir, TLS certificate refresh, DNS issues, OOM
     * impact: unknown cluster outages
