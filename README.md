@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [Breaking Kubernetes: How We Broke and Fixed our K8s Cluster - Civis Analytics - blog post 2019](https://medium.com/civis-analytics/https-medium-com-civis-analytics-breaking-kubernetes-how-we-broke-and-fixed-our-k8s-cluster-adfa6fbade61)
+    * involved: AWS, kops, large clusters, batch jobs infrastructure, Datadog, API server, DNS, CPU throttling
+    * impact: production outage
 * [Let's talk about Failures with Kubernetes - Zalando - Hamburg meetup 2019](https://www.slideshare.net/try_except_/lets-talk-about-failures-with-kubernetes-hamburg-meetup)
     * involved: AWS, `NotReady` nodes, ELB dynamic IPs, Ingress, API server, CronJob, CoreDNS, `OOMKill`, kubelet memory leak, CPU throttling
     * impact: production outages
