@@ -20,7 +20,7 @@ Most recent publications on top.
     * impact: development environment outage
     
  * [How NOT to do Kubernetes - Sr.SRE Medya Ghazizadeh - Google - Cloud Native Meetup Sep 2018](https://www.youtube.com/watch?v=V0DVkrHf08k) 
-    * involved: Top incidents on Kubernetes clusters by developer bad practices.
+    * involved: public container registery, ingress wild card, image size, replica count, 12factor
     * impact: security, stablity of clusters.
 
  
