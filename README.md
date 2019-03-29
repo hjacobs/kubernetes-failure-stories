@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [The shipwreck of GKE Cluster Upgrade - Loveholidays GKE - blog post 2019](https://deploy.live/blog/the-shipwreck-of-gke-cluster-upgrade/)
+    * involved: GCP Ingress, GKE Cluster, nodes
+    * impact: critical drop in pod availability, loss of ingress, 2 hour maintenance lasting 7 hours
 * [Breaking Kubernetes: How We Broke and Fixed our K8s Cluster - Civis Analytics - blog post 2019](https://medium.com/civis-analytics/https-medium-com-civis-analytics-breaking-kubernetes-how-we-broke-and-fixed-our-k8s-cluster-adfa6fbade61)
     * involved: AWS, kops, large clusters, batch jobs infrastructure, Datadog, API server, DNS, CPU throttling
     * impact: production outage
