@@ -6,6 +6,12 @@ Most recent publications on top.
 * [All pods scheduled to same failing host - Moonlight - postmortem 2019](https://updates.moonlightwork.com/outage-post-mortem-87370)
     * involved: Google Kubernetes Engine, scheduler, anti-affinity rules
     * impact: major production outage, 100% traffic loss
+* [The shipwreck of GKE Cluster Upgrade - Loveholidays GKE - blog post 2019](https://deploy.live/blog/the-shipwreck-of-gke-cluster-upgrade/)
+    * involved: GCP Ingress, GKE Cluster, nodes
+    * impact: critical drop in pod availability, loss of ingress, 2 hour maintenance lasting 7 hours
+* [Breaking Kubernetes: How We Broke and Fixed our K8s Cluster - Civis Analytics - blog post 2019](https://medium.com/civis-analytics/https-medium-com-civis-analytics-breaking-kubernetes-how-we-broke-and-fixed-our-k8s-cluster-adfa6fbade61)
+    * involved: AWS, kops, large clusters, batch jobs infrastructure, Datadog, API server, DNS, CPU throttling
+    * impact: production outage
 * [Let's talk about Failures with Kubernetes - Zalando - Hamburg meetup 2019](https://www.slideshare.net/try_except_/lets-talk-about-failures-with-kubernetes-hamburg-meetup)
     * involved: AWS, `NotReady` nodes, ELB dynamic IPs, Ingress, API server, CronJob, CoreDNS, `OOMKill`, kubelet memory leak, CPU throttling
     * impact: production outages
@@ -21,6 +27,12 @@ Most recent publications on top.
 * [On Infrastructure at Scale: A Cascading Failure of Distributed Systems - Target - Medium post January 2019](https://medium.com/@daniel.p.woods/on-infrastructure-at-scale-a-cascading-failure-of-distributed-systems-7cff2a3cd2df)
     * involved: on-premise, Kafka, large cluster, Consul, Docker daemon, high CPU usage
     * impact: development environment outage
+    
+ * [How NOT to do Kubernetes - Sr.SRE Medya Ghazizadeh - Google - Cloud Native Meetup Sep 2018](https://www.youtube.com/watch?v=V0DVkrHf08k) 
+    * involved: public container registery, ingress wild card, image size, replica count, 12factor
+    * impact: security, stablity of clusters.
+
+ 
 * [Running Kubernetes in Production: A Million Ways to Crash Your Cluster - Zalando - DevOpsCon Munich 2018](https://www.slideshare.net/try_except_/running-kubernetes-in-production-a-million-ways-to-crash-your-cluster-devopscon-munich-2018)
     * involved: AWS, Ingress, CronJob, etcd, flannel, Docker, CPU throttling
     * impact: production outages
@@ -45,6 +57,9 @@ Most recent publications on top.
 * [Anatomy of a Production Kubernetes Outage - Monzo - KubeCon Europe 2018](https://www.youtube.com/watch?v=OUYTNywPk-s)
     * involved: AWS, etcd, Linkerd, `NullPointerException`, gRPC client, services without endpoints, incompatible Kubernetes API change
     * impact: production ledger/platform outage
+* [Stories from the Playbook - Google - KubeCon Europe 2018](https://youtu.be/N2JUGnwinbQ)
+    * involved: GKE, etcd, Docker daemon, Image registry, dnsmasq vulnerabilities
+    * impact: production outage
 * [101 Ways to "Break and Recover" Kubernetes Cluster - Oath/Yahoo - KubeCon Europe 2018](https://www.youtube.com/watch?v=likHm-KHGWQ)
     * involved: on-premise, namespace deletion, domain name collision, `NotReady` nodes, etcd empty dir, TLS certificate refresh, DNS issues, OOM
     * impact: unknown cluster outages
