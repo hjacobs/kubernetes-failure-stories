@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [All pods scheduled to same failing host - Moonlight - postmortem 2019](https://updates.moonlightwork.com/outage-post-mortem-87370)
+    * involved: Google Kubernetes Engine, scheduler, anti-affinity rules
+    * impact: major production outage, 100% traffic loss
 * [Let's talk about Failures with Kubernetes - Zalando - Hamburg meetup 2019](https://www.slideshare.net/try_except_/lets-talk-about-failures-with-kubernetes-hamburg-meetup)
     * involved: AWS, `NotReady` nodes, ELB dynamic IPs, Ingress, API server, CronJob, CoreDNS, `OOMKill`, kubelet memory leak, CPU throttling
     * impact: production outages
@@ -66,9 +69,6 @@ Most recent publications on top.
 * [SaleMove US System Issue - SaleMove - incident report 2017](https://status.salemove.com/incidents/xf6cr710yrzn)
     * involved: AWS, ELB dynamic IPs, DNS `A` record for master, API server
     * impact: production issues with SaleMove US System
-* [All pods are scheduled onto the same node, which crashes due to CPU overload, then problem repeats](https://updates.moonlightwork.com/outage-post-mortem-87370)
-    * involved: Google Kubernetes Engine, scheduler, anti-affinity rules
-    * impact: major production outage, 100% traffic loss
 
 # Why
 
