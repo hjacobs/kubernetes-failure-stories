@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [All pods scheduled to same failing host - Moonlight - postmortem 2019](https://updates.moonlightwork.com/outage-post-mortem-87370)
+    * involved: Google Kubernetes Engine, scheduler, anti-affinity rules
+    * impact: major production outage, 100% traffic loss
 * [The shipwreck of GKE Cluster Upgrade - Loveholidays GKE - blog post 2019](https://deploy.live/blog/the-shipwreck-of-gke-cluster-upgrade/)
     * involved: GCP Ingress, GKE Cluster, nodes
     * impact: critical drop in pod availability, loss of ingress, 2 hour maintenance lasting 7 hours
