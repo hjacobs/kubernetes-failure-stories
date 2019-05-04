@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kubernetes Failure Stories</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+<link rel="shortcut icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+    <div class="content">
+    <h1>Kubernetes Failure Stories</h1>
+<p>A compiled list of links to public failure stories related to Kubernetes.
+Most recent publications on top.</p>
+<ul>
+<li><a href="https://medium.com/@SkyscannerEng/misunderstanding-the-behaviour-of-one-templating-line-and-the-pain-it-caused-our-k8s-clusters-a420f30a99f1">Misunderstanding the behaviour of one templating line - Skyscanner - blog post 2019</a><ul>
+<li>involved: HAProxy-Ingress, Service VIPs, Golang templating</li>
+<li>impact: Significantly increased latency, 5XXs thrown from some services</li>
+</ul>
+</li>
+<li><a href="https://updates.moonlightwork.com/outage-post-mortem-87370">All pods scheduled to same failing host - Moonlight - postmortem 2019</a><ul>
+<li>involved: Google Kubernetes Engine, scheduler, anti-affinity rules</li>
+<li>impact: major production outage, 100% traffic loss</li>
+</ul>
+</li>
+<li><a href="https://deploy.live/blog/the-shipwreck-of-gke-cluster-upgrade/">The shipwreck of GKE Cluster Upgrade - Loveholidays GKE - blog post 2019</a><ul>
+<li>involved: GCP Ingress, GKE Cluster, nodes</li>
+<li>impact: critical drop in pod availability, loss of ingress, 2 hour maintenance lasting 7 hours</li>
+</ul>
+</li>
+<li><a href="https://medium.com/civis-analytics/https-medium-com-civis-analytics-breaking-kubernetes-how-we-broke-and-fixed-our-k8s-cluster-adfa6fbade61">Breaking Kubernetes: How We Broke and Fixed our K8s Cluster - Civis Analytics - blog post 2019</a><ul>
+<li>involved: AWS, kops, large clusters, batch jobs infrastructure, Datadog, API server, DNS, CPU throttling</li>
+<li>impact: production outage</li>
+</ul>
+</li>
+<li><a href="https://www.slideshare.net/try_except_/lets-talk-about-failures-with-kubernetes-hamburg-meetup">Let's talk about Failures with Kubernetes - Zalando - Hamburg meetup 2019</a><ul>
+<li>involved: AWS, <code>NotReady</code> nodes, ELB dynamic IPs, Ingress, API server, CronJob, CoreDNS, <code>OOMKill</code>, kubelet memory leak, CPU throttling</li>
+<li>impact: production outages</li>
+</ul>
+</li>
+<li><a href="https://github.com/zalando-incubator/kubernetes-on-aws/blob/dev/docs/postmortems/jan-2019-dns-outage.md">Total DNS outage in Kubernetes cluster - Zalando - postmortem 2019</a><ul>
+<li>involved: AWS, DNS, CoreDNS, <code>OOMKill</code>, <code>ndots:5</code>, HTTP retries</li>
+<li>impact: production outage</li>
+</ul>
+</li>
+<li><a href="https://www.tibobeijen.nl/2019/02/01/learning-from-kubernetes-cluster-failure/">Maximize learnings from a Kubernetes cluster failure - NU.nl - blog post 2019</a><ul>
+<li>involved: AWS, <code>NotReady</code> nodes, <code>SystemOOM</code>, Helm, ElastAlert, no resource limits set</li>
+<li>impact: user experience affected for internally used tools and dashboards</li>
+</ul>
+</li>
+<li><a href="https://www.devops-hof.de/kubernetes-load-balancer-konfiguration-beware-when-draining-nodes/">Kubernetes Load Balancer Configuration - Beware when draining nodes - DevOps Hof - blog post 2019</a><ul>
+<li>involved: GCP Load Balancer, <code>externalTrafficPolicy</code>, ingress-nginx</li>
+<li>impact: total ingress traffic outage</li>
+</ul>
+</li>
+<li><a href="https://medium.com/@daniel.p.woods/on-infrastructure-at-scale-a-cascading-failure-of-distributed-systems-7cff2a3cd2df">On Infrastructure at Scale: A Cascading Failure of Distributed Systems - Target - Medium post January 2019</a><ul>
+<li>involved: on-premise, Kafka, large cluster, Consul, Docker daemon, high CPU usage</li>
+<li>impact: development environment outage</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=V0DVkrHf08k">How NOT to do Kubernetes - Sr.SRE Medya Ghazizadeh - Google - Cloud Native Meetup Sep 2018</a><ul>
+<li>involved: public container registery, ingress wild card, image size, replica count, 12factor</li>
+<li>impact: security, stablity of clusters.</li>
+</ul>
+</li>
+<li><a href="https://www.slideshare.net/try_except_/running-kubernetes-in-production-a-million-ways-to-crash-your-cluster-devopscon-munich-2018">Running Kubernetes in Production: A Million Ways to Crash Your Cluster - Zalando - DevOpsCon Munich 2018</a><ul>
+<li>involved: AWS, Ingress, CronJob, etcd, flannel, Docker, CPU throttling</li>
+<li>impact: production outages</li>
+</ul>
+</li>
+<li><a href="https://sethmccombs.github.io/work/2018/12/03/Outages.html">Outages? Downtime? - Veracode - blog post 2018</a><ul>
+<li>involved: AWS, AWS IAM, region migration, kubespray, Terraform, pod CIDR</li>
+<li>impact: QA/dev cluster outage</li>
+</ul>
+</li>
+<li><a href="https://keepingitclassless.net/2018/12/december-4---nre-labs-outage-post-mortem/">NRE Labs Outage Post-Mortem - NRE Labs - blog post 2018</a><ul>
+<li>involved: GCP, kubeadm, etcd, Terraform, <code>livenessProbe</code></li>
+<li>impact: production outage</li>
+</ul>
+</li>
+<li><a href="https://www.adammargherio.com/a-perfect-dns-storm/">A Perfect DNS Storm - Toyota Connected - blog post 2018</a><ul>
+<li>involved: Azure, DNS, <code>ndots:5</code>, Alpine musl libc</li>
+<li>impact: DNS resolution failures</li>
+</ul>
+</li>
+<li><a href="https://itnext.io/kubernetes-and-the-menace-elb-the-tale-of-an-outage-c00bef678fc0">Kubernetes and the Menace ELB, the tale of an outage - Turnitin - blog post 2018</a><ul>
+<li>involved: AWS, kube-aws, ELB dynamic IPs, API server, kubelet, <code>NotReady</code> nodes</li>
+<li>impact: 15 minutes cluster outage</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=tA8Sr3Nsx1I">Moving the Entire Stack to K8s Within a Year – Lessons Learned - ThredUP - DevOpsStage 2018</a><ul>
+<li>involved: AWS, kops, HAProxy, <code>livenessProbe</code>, DNS, too many open files</li>
+<li>impact: unknown outages, DNS errors</li>
+</ul>
+</li>
+<li><a href="https://www.airmap.com/incident-180719/">AirMap Platform Service Outage - AirMap - incident report 2018</a><ul>
+<li>involved: Azure, <code>NotReady</code> nodes, kubelet PLEG, CNI</li>
+<li>impact: production AirMap platform outage</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=OUYTNywPk-s">Anatomy of a Production Kubernetes Outage - Monzo - KubeCon Europe 2018</a><ul>
+<li>involved: AWS, etcd, Linkerd, <code>NullPointerException</code>, gRPC client, services without endpoints, incompatible Kubernetes API change</li>
+<li>impact: production ledger/platform outage</li>
+</ul>
+</li>
+<li><a href="https://youtu.be/N2JUGnwinbQ">Stories from the Playbook - Google - KubeCon Europe 2018</a><ul>
+<li>involved: GKE, etcd, Docker daemon, Image registry, dnsmasq vulnerabilities</li>
+<li>impact: production outage</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=likHm-KHGWQ">101 Ways to "Break and Recover" Kubernetes Cluster - Oath/Yahoo - KubeCon Europe 2018</a><ul>
+<li>involved: on-premise, namespace deletion, domain name collision, <code>NotReady</code> nodes, etcd empty dir, TLS certificate refresh, DNS issues, OOM</li>
+<li>impact: unknown cluster outages</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=xZO9nx6GBu0">101 Ways to Crash Your Cluster - Nordstrom - KubeCon North America 2017</a><ul>
+<li>involved: AWS, <code>NotReady</code> nodes, OOM, eviction thresholds, ELB dynamic IPs, kubelet, cluster autoscaler, etcd split</li>
+<li>impact: full production cluster outage, other outages</li>
+</ul>
+</li>
+<li><a href="https://community.monzo.com/t/resolved-current-account-payments-may-fail-major-outage-27-10-2017/26296/95">Major Outage: Current account payments may fail - Monzo - Monzo Community post 2017</a><ul>
+<li>involved: AWS, etcd, Linkerd, <code>NullPointerException</code>, services without endpoints</li>
+<li>impact: major production outage, full platform outage, current account payments fail</li>
+</ul>
+</li>
+<li><a href="https://www.slideshare.net/RaffaeleDiFazio/fallacies-of-distributed-computing-with-kubernetes-on-aws">Fallacies of Distributed Computing with Kubernetes on AWS - Zalando - AWS User Group Hamburg October 2017</a><ul>
+<li>involved: AWS, unhealthy nodes, Ingress, CronJob</li>
+<li>impact: production outage</li>
+</ul>
+</li>
+<li><a href="http://status.universe.com/incidents/115n3vxqwzcf">Search and Reporting Outage - Universe - incident report 2017</a><ul>
+<li>involved: Job, <code>RestartPolicy</code>, consume node resources</li>
+<li>impact: production Universe search and reporting outage</li>
+</ul>
+</li>
+<li><a href="https://engineering.saltside.se/our-first-kubernetes-outage-c6b9249cfd3a">Our First Kubernetes Outage - Saltside - blog post 2017</a><ul>
+<li>involved: AWS, kops, Helm, <code>NotReady</code> nodes, resource exhaustion</li>
+<li>impact: nonproduction cluster outage</li>
+</ul>
+</li>
+<li><a href="https://engineering.saltside.se/our-failure-migrating-to-kubernetes-25c28e6dd604">Our Failure Migrating to Kubernetes - Saltside - blog post 2017</a><ul>
+<li>involved: AWS, kops, ELB, <code>BackendConnectionErrors</code>, <code>LoadBalancer</code> service</li>
+<li>impact: aborted application migration</li>
+</ul>
+</li>
+<li><a href="https://status.salemove.com/incidents/xf6cr710yrzn">SaleMove US System Issue - SaleMove - incident report 2017</a><ul>
+<li>involved: AWS, ELB dynamic IPs, DNS <code>A</code> record for master, API server</li>
+<li>impact: production issues with SaleMove US System</li>
+</ul>
+</li>
+</ul>
+<h1>Why</h1>
+<p>Kubernetes is a fairly complex system with many moving parts.
+Its ecosystem is constantly evolving and adding even more layers (service mesh, ...) to the mix.
+Considering this environment, we don't hear enough real-world horror stories to learn from each other!
+This compilation of failure stories should make it easier for people dealing with Kubernetes operations (SRE, Ops, platform/infrastructure teams) to
+learn from others and reduce the unknown unknowns of running Kubernetes in production.
+For more information, <a href="https://srcco.de/posts/kubernetes-failure-stories.html">see the blog post</a>.</p>
+<h1>Contributing</h1>
+<p>Please help the community and <strong><a href="https://github.com/hjacobs/kubernetes-failure-stories/edit/master/README.md">share a link to your failure story by opening a Pull Request!</a></strong>
+Failure stories can be anything like blog posts, conference/meetup talks, incident postmortems, tweetstorms, ...</p>
+<p>I would also be glad to hear about your failure stories on Twitter: my handle is <a href="https://twitter.com/try_except_">@try_except_</a></p>
+    </div>
+    <hr>
+    </div>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p><strong>Kubernetes Failure Stories</strong> generated from <a href="https://github.com/hjacobs/kubernetes-failure-stories">github.com/hjacobs/kubernetes-failure-stories</a>.</p>
+        </div>
+    </footer>
+  </section>
+</body>
