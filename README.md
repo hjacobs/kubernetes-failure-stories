@@ -30,12 +30,9 @@ Most recent publications on top.
 * [On Infrastructure at Scale: A Cascading Failure of Distributed Systems - Target - Medium post January 2019](https://medium.com/@daniel.p.woods/on-infrastructure-at-scale-a-cascading-failure-of-distributed-systems-7cff2a3cd2df)
     * involved: on-premise, Kafka, large cluster, Consul, Docker daemon, high CPU usage
     * impact: development environment outage
-    
- * [How NOT to do Kubernetes - Sr.SRE Medya Ghazizadeh - Google - Cloud Native Meetup Sep 2018](https://www.youtube.com/watch?v=V0DVkrHf08k) 
+ * [How NOT to do Kubernetes - Sr.SRE Medya Ghazizadeh - Google - Cloud Native Meetup Sep 2018](https://www.youtube.com/watch?v=V0DVkrHf08k)
     * involved: public container registery, ingress wild card, image size, replica count, 12factor
     * impact: security, stablity of clusters.
-
- 
 * [Running Kubernetes in Production: A Million Ways to Crash Your Cluster - Zalando - DevOpsCon Munich 2018](https://www.slideshare.net/try_except_/running-kubernetes-in-production-a-million-ways-to-crash-your-cluster-devopscon-munich-2018)
     * involved: AWS, Ingress, CronJob, etcd, flannel, Docker, CPU throttling
     * impact: production outages
@@ -100,7 +97,7 @@ For more information, [see the blog post](https://srcco.de/posts/kubernetes-fail
 
 # Contributing
 
-Please help the community and **share a link to your failure story by opening a Pull Request!**
+Please help the community and **[share a link to your failure story by opening a Pull Request!](https://github.com/hjacobs/kubernetes-failure-stories/edit/master/README.md)**
 Failure stories can be anything like blog posts, conference/meetup talks, incident postmortems, tweetstorms, ...
 
 I would also be glad to hear about your failure stories on Twitter: my handle is [@try_except_](https://twitter.com/try_except_)
