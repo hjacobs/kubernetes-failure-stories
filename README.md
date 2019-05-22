@@ -3,9 +3,12 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
-* [Kubernetes Failure Stories - Zalando - KubeCon Barcelona 2019](https://www.slideshare.net/try_except_/kubernetes-failure-stories-kubecon-europe-barcelona)
+* [Kubernetes Failure Stories - Zalando - KubeCon Barcelona 2019](https://www.youtube.com/watch?v=6sDTB4eV4F8)
     * involved: Skipper-Ingress, AWS, `OOMKill`, high latency, CronJob, CoreDNS, `ndots:5`, etcd, CPU throttling
     * impact: multiple production outages
+* [Oh Sh\*t! The Config Changed! - Pusher - KubeCon Barcelona 2019](https://www.youtube.com/watch?v=8P7-C44Gjj8)
+    * involved: AWS, nginx, ConfigMap change
+    * impact: production outage
 * [Misunderstanding the behaviour of one templating line - Skyscanner - blog post 2019](https://medium.com/@SkyscannerEng/misunderstanding-the-behaviour-of-one-templating-line-and-the-pain-it-caused-our-k8s-clusters-a420f30a99f1)
     * involved: HAProxy-Ingress, Service VIPs, Golang templating
     * impact: Significantly increased latency, 5XXs thrown from some services
