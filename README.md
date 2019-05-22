@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [How Spotify Accidentally Deleted All its Kube Clusters with No User Impact - Spotify - KubeCon Barcelona 2019](https://www.youtube.com/watch?v=ix0Tw8uinWs)
+    * involved: GKE, cluster deletion, browser tabs, Terraform, global state file, git PRs, GCP permissions
+    * impact: no impact on end users
 * [Kubernetes Failure Stories - Zalando - KubeCon Barcelona 2019](https://www.youtube.com/watch?v=6sDTB4eV4F8)
     * involved: Skipper-Ingress, AWS, `OOMKill`, high latency, CronJob, CoreDNS, `ndots:5`, etcd, CPU throttling
     * impact: multiple production outages
