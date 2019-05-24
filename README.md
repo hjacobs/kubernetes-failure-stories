@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [10 Ways to Shoot Yourself in the Foot with Kubernetes, #9 Will Surprise You - Datadog - KubeCon Barcelona 2019](https://www.youtube.com/watch?v=QKI-JRs2RIE)
+    * involved: TODO
+    * impact: unknown
 * [How Spotify Accidentally Deleted All its Kube Clusters with No User Impact - Spotify - KubeCon Barcelona 2019](https://www.youtube.com/watch?v=ix0Tw8uinWs)
     * involved: GKE, cluster deletion, browser tabs, Terraform, global state file, git PRs, GCP permissions
     * impact: no impact on end users
