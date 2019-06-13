@@ -96,6 +96,9 @@ Most recent publications on top.
 * [SaleMove US System Issue - SaleMove - incident report 2017](https://status.salemove.com/incidents/xf6cr710yrzn)
     * involved: AWS, ELB dynamic IPs, DNS `A` record for master, API server
     * impact: production issues with SaleMove US System
+* [Experiences with running PostgreSQL on Kubernetes](https://gravitational.com/blog/running-postgresql-on-kubernetes/)
+    * involved: PostgreSQL
+    * impact: data loss
 
 # Why
 
