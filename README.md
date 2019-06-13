@@ -107,6 +107,10 @@ learn from others and reduce the unknown unknowns of running Kubernetes in produ
 For more information, [see the blog post](https://srcco.de/posts/kubernetes-failure-stories.html).
 
 
+# Disclaimer
+
+Please note that the purpose of this repository is to not denote that Kubernetes is bad and you should just stay away from it. The idea is to help you learn from these postmortems and mistakes of others and to not repeat them. Similar to this repository, there could have been a list of "Encryption Failure Stories" but that doesn't mean we shouldn't encrypting things – so don't use this repository as an excuse to stay away from Kubernetes.
+
 # Contributing
 
 Please help the community and **[share a link to your failure story by opening a Pull Request!](https://github.com/hjacobs/kubernetes-failure-stories/edit/master/README.md)**
