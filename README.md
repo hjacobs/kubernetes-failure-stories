@@ -75,6 +75,9 @@ Most recent publications on top.
 * [101 Ways to "Break and Recover" Kubernetes Cluster - Oath/Yahoo - KubeCon Europe 2018](https://www.youtube.com/watch?v=likHm-KHGWQ)
     * involved: on-premise, namespace deletion, domain name collision, `NotReady` nodes, etcd empty dir, TLS certificate refresh, DNS issues, OOM
     * impact: unknown cluster outages
+* [Experiences with running PostgreSQL on Kubernetes](https://gravitational.com/blog/running-postgresql-on-kubernetes/)
+    * involved: PostgreSQL
+    * impact: data loss
 * [101 Ways to Crash Your Cluster - Nordstrom - KubeCon North America 2017](https://www.youtube.com/watch?v=xZO9nx6GBu0)
     * involved: AWS, `NotReady` nodes, OOM, eviction thresholds, ELB dynamic IPs, kubelet, cluster autoscaler, etcd split
     * impact: full production cluster outage, other outages
@@ -96,9 +99,6 @@ Most recent publications on top.
 * [SaleMove US System Issue - SaleMove - incident report 2017](https://status.salemove.com/incidents/xf6cr710yrzn)
     * involved: AWS, ELB dynamic IPs, DNS `A` record for master, API server
     * impact: production issues with SaleMove US System
-* [Experiences with running PostgreSQL on Kubernetes](https://gravitational.com/blog/running-postgresql-on-kubernetes/)
-    * involved: PostgreSQL
-    * impact: data loss
 
 # Why
 
