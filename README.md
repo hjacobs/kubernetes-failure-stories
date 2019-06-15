@@ -3,8 +3,6 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
-* [How to kill the Algolia dashboard during Black Friday or How not to use Kubernetes ](https://www.youtube.com/watch?v=Fjyg7cxRZQs&list=PLuHdbqhRgWHJg9eOFCl5dgLvVjd_DFz8O&index=3&t=0s)
-   * involved: GKE, cluster deletion, Jobs.
 * [10 Ways to Shoot Yourself in the Foot with Kubernetes, #9 Will Surprise You - Datadog - KubeCon Barcelona 2019](https://www.youtube.com/watch?v=QKI-JRs2RIE)
     * involved: CoreDNS, `ndots:5`, IPVS conntrack, `imagePullPolicy: Always`, DaemonSet, NAT instances, `latest` tag, API server `OOMKill`, kube2iam, cluster-autoscaler, PodPriority, audit logs, `spec.replicas`, AWS ASG rebalance, CronJob, Pod toleration, zombies, `readinessProbe.exec`, cgroup freeze, kubectl
     * impact: unknown, API server outage, pending pods, slow deployments
@@ -20,6 +18,9 @@ Most recent publications on top.
 * [Misunderstanding the behaviour of one templating line - Skyscanner - blog post 2019](https://medium.com/@SkyscannerEng/misunderstanding-the-behaviour-of-one-templating-line-and-the-pain-it-caused-our-k8s-clusters-a420f30a99f1)
     * involved: HAProxy-Ingress, Service VIPs, Golang templating
     * impact: Significantly increased latency, 5XXs thrown from some services
+* [How to kill the Algolia dashboard during Black Friday or How not to use Kubernetes - Algolia - Algolia Search Party 2019](https://www.youtube.com/watch?v=Fjyg7cxRZQs&list=PLuHdbqhRgWHJg9eOFCl5dgLvVjd_DFz8O&index=3&t=0s)
+    * involved: GKE, Jobs, overload
+    * impact: high latency, timeouts
 * [All pods scheduled to same failing host - Moonlight - postmortem 2019](https://updates.moonlightwork.com/outage-post-mortem-87370)
     * involved: Google Kubernetes Engine, scheduler, anti-affinity rules
     * impact: major production outage, 100% traffic loss
