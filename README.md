@@ -18,6 +18,9 @@ Most recent publications on top.
 * [Misunderstanding the behaviour of one templating line - Skyscanner - blog post 2019](https://medium.com/@SkyscannerEng/misunderstanding-the-behaviour-of-one-templating-line-and-the-pain-it-caused-our-k8s-clusters-a420f30a99f1)
     * involved: HAProxy-Ingress, Service VIPs, Golang templating
     * impact: Significantly increased latency, 5XXs thrown from some services
+* [How to kill the Algolia dashboard during Black Friday or How not to use Kubernetes - Algolia - Algolia Search Party 2019](https://www.youtube.com/watch?v=Fjyg7cxRZQs&list=PLuHdbqhRgWHJg9eOFCl5dgLvVjd_DFz8O&index=3&t=0s)
+    * involved: GKE, Jobs, overload
+    * impact: high latency, timeouts
 * [All pods scheduled to same failing host - Moonlight - postmortem 2019](https://updates.moonlightwork.com/outage-post-mortem-87370)
     * involved: Google Kubernetes Engine, scheduler, anti-affinity rules
     * impact: major production outage, 100% traffic loss
