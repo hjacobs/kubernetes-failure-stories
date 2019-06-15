@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [10 Ways to Shoot Yourself in the Foot with Kubernetes, #9 Will Surprise You - Datadog - KubeCon Barcelona 2019](https://www.youtube.com/watch?v=QKI-JRs2RIE)
+    * involved: CoreDNS, `ndots:5`, IPVS conntrack, `imagePullPolicy: Always`, DaemonSet, NAT instances, `latest` tag, API server `OOMKill`, kube2iam, cluster-autoscaler, PodPriority, audit logs, `spec.replicas`, AWS ASG rebalance, CronJob, Pod toleration, zombies, `readinessProbe.exec`, cgroup freeze, kubectl
+    * impact: unknown, API server outage, pending pods, slow deployments
 * [How Spotify Accidentally Deleted All its Kube Clusters with No User Impact - Spotify - KubeCon Barcelona 2019](https://www.youtube.com/watch?v=ix0Tw8uinWs)
     * involved: GKE, cluster deletion, browser tabs, Terraform, global state file, git PRs, GCP permissions
     * impact: no impact on end users
@@ -72,6 +75,9 @@ Most recent publications on top.
 * [101 Ways to "Break and Recover" Kubernetes Cluster - Oath/Yahoo - KubeCon Europe 2018](https://www.youtube.com/watch?v=likHm-KHGWQ)
     * involved: on-premise, namespace deletion, domain name collision, `NotReady` nodes, etcd empty dir, TLS certificate refresh, DNS issues, OOM
     * impact: unknown cluster outages
+* [Experiences with running PostgreSQL on Kubernetes - Gravitational - blog post 2018](https://gravitational.com/blog/running-postgresql-on-kubernetes/)
+    * involved: PostgreSQL, streaming replication
+    * impact: data loss
 * [101 Ways to Crash Your Cluster - Nordstrom - KubeCon North America 2017](https://www.youtube.com/watch?v=xZO9nx6GBu0)
     * involved: AWS, `NotReady` nodes, OOM, eviction thresholds, ELB dynamic IPs, kubelet, cluster autoscaler, etcd split
     * impact: full production cluster outage, other outages
