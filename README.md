@@ -75,8 +75,8 @@ Most recent publications on top.
 * [101 Ways to "Break and Recover" Kubernetes Cluster - Oath/Yahoo - KubeCon Europe 2018](https://www.youtube.com/watch?v=likHm-KHGWQ)
     * involved: on-premise, namespace deletion, domain name collision, `NotReady` nodes, etcd empty dir, TLS certificate refresh, DNS issues, OOM
     * impact: unknown cluster outages
-* [Experiences with running PostgreSQL on Kubernetes](https://gravitational.com/blog/running-postgresql-on-kubernetes/)
-    * involved: PostgreSQL
+* [Experiences with running PostgreSQL on Kubernetes - Gravitational - blog post 2018](https://gravitational.com/blog/running-postgresql-on-kubernetes/)
+    * involved: PostgreSQL, streaming replication
     * impact: data loss
 * [101 Ways to Crash Your Cluster - Nordstrom - KubeCon North America 2017](https://www.youtube.com/watch?v=xZO9nx6GBu0)
     * involved: AWS, `NotReady` nodes, OOM, eviction thresholds, ELB dynamic IPs, kubelet, cluster autoscaler, etcd split
