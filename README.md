@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [Moving to Kubernetes: the Bad and the Ugly - Xing - ContainerDays EU 2019](https://www.youtube.com/watch?v=MoIdU0J0f0E)
+    * involved: nginx Ingress, network interrupts, conntrack, frozen CronJob, PLEG, stuck controllers
+    * impact: lost requests, response time jumps, not ready nodes
 * [Build Errors of Continuous Delivery Platform - Zalando - postmortem 2019](https://github.com/zalando-incubator/kubernetes-on-aws/blob/dev/docs/postmortems/jun-2019-kubelet-qps.md)
     * involved: AWS IAM, Kubelet, kube2iam, `--kube-api-qps`
     * impact: build errors
