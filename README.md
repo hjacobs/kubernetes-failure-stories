@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [How a Production Outage Was Caused Using Kubernetes Pod Priorities - Grafana Labs 2019](https://grafana.com/blog/2019/07/24/how-a-production-outage-was-caused-using-kubernetes-pod-priorities/)
+    * involved: Pod Priorities
+    * impact: Cascading Pod evictions.
 * [Moving to Kubernetes: the Bad and the Ugly - Xing - ContainerDays EU 2019](https://www.youtube.com/watch?v=MoIdU0J0f0E)
     * involved: nginx Ingress, network interrupts, conntrack, frozen CronJob, PLEG, stuck controllers
     * impact: lost requests, response time jumps, not ready nodes
