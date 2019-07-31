@@ -2,7 +2,9 @@
 
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
-
+* [Kubernetes’ dirty endpoint secret and Ingress - Ravelin - blog post 2019](https://medium.com/@philpearl/kubernetes-dirty-endpoint-secret-and-ingress-1abcf752e4dd)
+    * involved: GKE, Service, ReplicationController and SIGTERMs
+    * impact: 500s during pod removal
 * [How a Production Outage Was Caused Using Kubernetes Pod Priorities - Grafana Labs 2019](https://grafana.com/blog/2019/07/24/how-a-production-outage-was-caused-using-kubernetes-pod-priorities/)
     * involved: Pod Priorities
     * impact: Cascading Pod evictions.
