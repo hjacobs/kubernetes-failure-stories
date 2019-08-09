@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [Post Mortem: Kubernetes Node OOM - Blue Matador - blog post 2019](https://www.bluematador.com/blog/post-mortem-kubernetes-node-oom)
+    * involved: AWS, SystemOOM, EBS, fluentd-sumologic, no resource requests/limits
+    * impact: unknown, Pods killed
 * [Kubernetes’ dirty endpoint secret and Ingress - Ravelin - blog post 2019](https://philpearl.github.io/post/k8s_ingress/)
     * involved: GKE, Ingress, replication controller, SIGTERM, "graceful shutdown"
     * impact: occasional 502 errors
