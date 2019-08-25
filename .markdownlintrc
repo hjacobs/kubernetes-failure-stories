@@ -1,0 +1,15 @@
+{
+  "comment": "https://github.com/DavidAnson/markdownlint",
+
+  "default": true,
+  "fenced-code-language": false,
+  "heading-increment": false,
+  "no-trailing-punctuation": false,
+  "line-length": false,
+  "MD025": false,
+  "MD037": false,
+  "MD022": false,
+  "MD046": false,
+  "MD047": false,
+  "MD007": { "indent": 4 }
+}
