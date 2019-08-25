@@ -1,0 +1,7 @@
+language: generic
+
+install:
+  - npm install -g markdownlint-cli
+
+script:
+  - markdownlint README.md
