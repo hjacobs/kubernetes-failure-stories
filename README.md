@@ -3,7 +3,7 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
-* [How a simple admission webhook lead to a cluster outage - blog post 2019](https://blog.jetstack.io/blog/gke-webhook-outage)
+* [How a simple admission webhook lead to a cluster outage - Jetstack - blog post 2019](https://blog.jetstack.io/blog/gke-webhook-outage)
     * involved: ValidatingWebhookConfiguration, GKE node auto-repair
     * impact: prolonged downtime of non-prod environment, nodes lost, failed master upgrade
 * [Post Mortem: Kubernetes Node OOM - Blue Matador - blog post 2019](https://www.bluematador.com/blog/post-mortem-kubernetes-node-oom)
