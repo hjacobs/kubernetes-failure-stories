@@ -79,7 +79,7 @@ Most recent publications on top.
 * [Outages? Downtime? - Veracode - blog post 2018](https://sethmccombs.github.io/work/2018/12/03/Outages.html)
     * involved: AWS, AWS IAM, region migration, kubespray, Terraform, pod CIDR
     * impact: QA/dev cluster outage
-* [NRE Labs Outage Post-Mortem - NRE Labs - blog post 2018](https://keepingitclassless.net/2018/12/december-4---nre-labs-outage-post-mortem/)
+* [NRE Labs Outage Post-Mortem - NRE Labs - blog post 2018](https://keepingitclassless.net/2018/12/december-4-nre-labs-outage-post-mortem/)
     * involved: GCP, kubeadm, etcd, Terraform, `livenessProbe`
     * impact: production outage
 * [A Perfect DNS Storm - Toyota Connected - blog post 2018](https://www.adammargherio.com/a-perfect-dns-storm/)
