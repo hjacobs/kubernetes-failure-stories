@@ -3,7 +3,6 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
-
 * [Postmortem: New K8s workers unable to join cluster - FREE NOW - postmortem 2019](https://github.com/freenowtech/postmortems/blob/master/2019-09-19%20-%20New%20K8s%20workers%20unable%20to%20join%20cluster.pdf)
     * involved: AWS spot instances, kops, CentOS, container-selinux
     * impact: insufficient cluster capacity in testing environments, failed deployments in production and staging environments
