@@ -129,6 +129,9 @@ Most recent publications on top.
 * [SaleMove US System Issue - SaleMove - incident report 2017](https://status.salemove.com/incidents/xf6cr710yrzn)
     * involved: AWS, ELB dynamic IPs, DNS `A` record for master, API server
     * impact: production issues with SaleMove US System
+* [A kubernetes failure story (dex) - Dutch kubernetes meetup slides 2019-06](https://pieterlange.github.io/failure-stories/2019-06.dex.html)
+    * involved: etcd, apiserver, dex, custom resources
+    * impact: broken control plane on production with no access to o11y due to broken authentication system, no actual business impact
 
 # Why
 
