@@ -3,7 +3,7 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
-* [Kubernetes made my latency 10x higher](https://srvaroa.github.io/kubernetes/migration/latency/dns/java/aws/microservices/2019/10/22/kubernetes-added-a-0-to-my-latency.html)
+* [Kubernetes made my latency 10x higher - Adevinta - blog post 2019](https://srvaroa.github.io/kubernetes/migration/latency/dns/java/aws/microservices/2019/10/22/kubernetes-added-a-0-to-my-latency.html)
     * involved: KIAM, DNS, AWS IAM, latency
     * impact: service showing up to x10 higher latencies compared to a deployment in EC2
 * [A Kubernetes failure story (dex) - anonymous Fullstaq client - Dutch kubernetes meetup slides 2019-06](https://pieterlange.github.io/failure-stories/2019-06.dex.html)
