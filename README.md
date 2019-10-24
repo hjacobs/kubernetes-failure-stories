@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [A Kubernetes failure story (dex) - anonymous Fullstaq client - Dutch kubernetes meetup slides 2019-06](https://pieterlange.github.io/failure-stories/2019-06.dex.html)
+    * involved: etcd, apiserver, dex, custom resources
+    * impact: broken control plane on production with no access to o11y due to broken authentication system, no actual business impact
 * [A Kubernetes crime story - Prezi - blog post 2019](https://engineering.prezi.com/https-engineering-prezi-com-a-kubernetes-crime-story-2e8d75a77630)
     * involved: AWS EKS, SNAT, conntrack, Amazon VPC CNI plugin
     * impact: delay of 1-3 seconds for outgoing TCP connections
