@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [When GKE ran out of IP addresses - loveholidays - blog post 2020](https://deploy.live/blog/when-gke-ran-out-of-ip-addresses/)
+    * involved: GKE, cluster autoscaler, HPA, Alias IP VPC (VPC Native)
+    * impact: stuck deployment, blocked autoscaling of both pods and nodes
 * [How we failed to integrate Istio into our platform - Exponea - blog post 2019](https://medium.com/@jakubkulich/sailing-with-the-istio-through-the-shallow-water-8ae81668381e)
     * involved: Istio, GKE, proxy injection
     * impact: stopped Istio rollout, developers' time spent
@@ -60,7 +63,7 @@ Most recent publications on top.
 * [All pods scheduled to same failing host - Moonlight - postmortem 2019](https://updates.moonlightwork.com/outage-post-mortem-87370)
     * involved: Google Kubernetes Engine, scheduler, anti-affinity rules
     * impact: major production outage, 100% traffic loss
-* [The shipwreck of GKE Cluster Upgrade - Loveholidays GKE - blog post 2019](https://deploy.live/blog/the-shipwreck-of-gke-cluster-upgrade/)
+* [The shipwreck of GKE Cluster Upgrade - loveholidays - blog post 2019](https://deploy.live/blog/the-shipwreck-of-gke-cluster-upgrade/)
     * involved: GCP Ingress, GKE Cluster, nodes
     * impact: critical drop in pod availability, loss of ingress, 2 hour maintenance lasting 7 hours
 * [Breaking Kubernetes: How We Broke and Fixed our K8s Cluster - Civis Analytics - blog post 2019](https://medium.com/civis-analytics/https-medium-com-civis-analytics-breaking-kubernetes-how-we-broke-and-fixed-our-k8s-cluster-adfa6fbade61)
