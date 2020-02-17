@@ -3,6 +3,10 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+
+* [CPU limits and aggressive throttling in Kubernetes - Omio - blog post 2020](https://medium.com/omio-engineering/cpu-limits-and-aggressive-throttling-in-kubernetes-c5b20bd8a718)
+    * involved: GKE, CPU Limit, CPU throttling
+    * impact: high latency, errors
 * [When GKE ran out of IP addresses - loveholidays - blog post 2020](https://deploy.live/blog/when-gke-ran-out-of-ip-addresses/)
     * involved: GKE, cluster autoscaler, HPA, Alias IP VPC (VPC Native)
     * impact: stuck deployment, blocked autoscaling of both pods and nodes
