@@ -160,3 +160,9 @@ Please help the community and **[share a link to your failure story by opening a
 Failure stories can be anything like blog posts, conference/meetup talks, incident postmortems, tweetstorms, ...
 
 I would also be glad to hear about your failure stories on Twitter: my handle is [@try_except_](https://twitter.com/try_except_)
+
+# Thanks
+
+Thanks to all contributors and everybody who writes public Kubernetes postmortems! 👏
+
+Thanks to [Joe Beda](https://twitter.com/jbeda) for contributing his domain k8s.af for this project! 👏
