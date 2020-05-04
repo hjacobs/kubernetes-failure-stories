@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [DNS issues in Kubernetes. Public postmortem #1 - Preply - blog post 2020](https://medium.com/preply-engineering/dns-postmortem-e169efd45afd)
+    * involved: conntrack, DNS, CoreDNS-autoscaler
+    * impact: partial produciton outage
 * [CPU limits and aggressive throttling in Kubernetes - Omio - blog post 2020](https://medium.com/omio-engineering/cpu-limits-and-aggressive-throttling-in-kubernetes-c5b20bd8a718)
     * involved: GKE, CPU Limit, CPU throttling
     * impact: high latency, errors
