@@ -5,7 +5,7 @@ Most recent publications on top.
 
 * [Kubernetes Networking Problems Due to the Conntrack - loveholidays - blog post 2020](https://deploy.live/blog/kubernetes-networking-problems-due-to-the-conntrack/)
     * involved: GKE, conntrack, HAProxy
-    * impact: high error rate on network-heavy servicesgit
+    * impact: high error rate on network-heavy services
 * [DNS issues in Kubernetes. Public postmortem #1 - Preply - blog post 2020](https://medium.com/preply-engineering/dns-postmortem-e169efd45afd)
     * involved: conntrack, DNS, CoreDNS-autoscaler
     * impact: partial production outage
