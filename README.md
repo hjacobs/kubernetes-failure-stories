@@ -3,6 +3,9 @@
 A compiled list of links to public failure stories related to Kubernetes.
 Most recent publications on top.
 
+* [The case of the missing packet: An EKS migration tale - MindTickle - blog post 2020](https://yashmehrotra.com/post/2020-03-16-case-of-missing-packet/)
+    * involved: EKS, AWS CNI Plugin,
+    * impact: Frequent connection failures when talking to services outside the cluster
 * [Kubernetes Networking Problems Due to the Conntrack - loveholidays - blog post 2020](https://deploy.live/blog/kubernetes-networking-problems-due-to-the-conntrack/)
     * involved: GKE, conntrack, HAProxy
     * impact: high error rate on network-heavy services
